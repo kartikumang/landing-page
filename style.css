@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#back{overflow: hidden;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#back img{
+    width: 100%;
+    height: 722px;
+    background-size: cover;
+}
+ #back .overlay{
+     overflow: hidden;
+     position: absolute;
+     top: 0%;
+     width: 100%;
+    height: 100%;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    background-color:black;
+    opacity: 86%;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    background-color:transparent;
+}
+.left .navlink{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    
+}
+.left .navlink button{
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+    font-family: Montserrat;
+    margin-top: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+}
+.navlink button:nth-child(1){
+    color:white ;
+    border: 1px solid transparent;
+    border-bottom-color: white;
+}
+.navlink button:hover{
+    cursor: pointer;
+}
+.left .navlink hr{position: absolute;
+    width: 100%;
+    color: white;
+    margin-top: 100px;
+    opacity: 13%;
+}
+.left hr{
+    width: 20%;
+    color: rgb(214, 214, 214);
+    margin-top: 240px;
+    margin-left: 100px;
+    font-weight: 200;
+}
+.left h2{
+    font-family: Montserrat;
+    color: rgb(202, 202, 202);
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.left p{
+    font-family: Montserrat;
+    color: white;
+    margin-left: 100px;
+    font-size: 14px;
+    margin-top: 30px;
+    opacity: 50%;
+}
+.left h5{font-family: Montserrat;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-weight: 430;
+    color: white;
+    font-size: 14px;
+    opacity: 85%;
+}
+.left h5 i{
+    position: absolute;
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+    opacity: 70%;
+}
+.left h5 i{
+    cursor: pointer;
+}
+.right #circle {
+    width: 8%;
+    height: 8%;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 435px;
+    margin-top: 70px;
+}
+.right #circle i{position: absolute;
+    color: rgb(0, 0, 0);
+    margin-top:17px;
+    margin-left: 18px;
+    font-size: 25px;
+}
+
+.right #circle:hover{
+    box-shadow: 0px 10px 50px 10px rgb(90, 90, 90);
+    cursor: pointer;
+}
+.overlay #scroll{display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.overlay #scroll h4{
+    font-family: Montserrat;
+    color: rgb(209, 209, 209);
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 12px;
+    font-weight: 600;
+}
+.overlay #scroll i{ position: absolute;
+    top: 89%;
+    left: 47.3%;
+    transform: translate(-50%,-50%);
+    margin-left: 40px;
+    font-size: 16px;
+    color: white;
+}
+.overlay #scroll i:hover{
+    cursor: pointer;
+}
+.overlay #line{overflow: hidden;
+    position: absolute;
+    width: 200%;
+    top: 99.6%;
+    transform: translate(-50%,-50%);
+    height: 2px;
+    background-color: white;
+}
+.overlay #video i {
+    position: absolute;
+    color: white;
+    font-size: 90px;
+    top:82.2%;
+    left: 97.8%;
+    transform: translate(-50%,50%);
+}
+.overlay #video i:hover{
+    cursor: pointer;
+}
